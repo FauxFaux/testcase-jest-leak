@@ -1,0 +1,16 @@
+{
+  "name": "testcase-jest-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectLeaks"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "weak-napi": "^2.0.2"
+  },
+  "dependencies": {}
+}
